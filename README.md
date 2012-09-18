@@ -1,10 +1,12 @@
-AutoDropboxUploader
+SuperDuperFastTableView
 ===================
 
-Wouldn't it be cool if Dropbox automatically synced all your photos and videos on your iPhone without you having to anything? The newest version claims exactly that but falls short. 
+This is the fastest TableView with large images around. This kicks the shit out of any other project. The new Facebook native app is slow as shit compared to this project. You will see more images faster. No more black ImageView's when scrolling (cop out by Facebook camera app). The beauty of this project is not seen until you have 1 bar on a 3G connection. 
 
-The latest dropbox version uploads photos/videos only if the app is open or within 10 minutes of the last close. Re-open the app every time I want to sync, this fucking sucks. 
+Includes image caching (memory and disk), image prefetching, low res + high res images (low res when scrolling) and is compatible for iPhone 5 screen size. 
 
-This project is a full featured dropbox client that uploads without the app open. There is no 10 minute window and it will even send a push notification if somehow the app has been terminated from the background (never happens). 
+I am pulling images from my Instagram, Facebook and Twitter. 
 
-I will submit this app to the app store once completed. 
+Code is a little messy. Using this project as a proof of concept. 
+
+I am using MKNetworkKit with a bunch of custom stuff added on top. 
