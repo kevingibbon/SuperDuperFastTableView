@@ -72,14 +72,14 @@
 /* Begin PBXFileReference section */
 		0A79928E1607EC8C0005DD14 /* SinglyImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinglyImage.h; sourceTree = "<group>"; };
 		0A79928F1607EC8C0005DD14 /* SinglyImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinglyImage.m; sourceTree = "<group>"; };
-		0ACBEE241606724500267621 /* AutoDropboxUploader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoDropboxUploader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ACBEE241606724500267621 /* SuperDuperFastTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperDuperFastTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ACBEE281606724500267621 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0ACBEE2A1606724500267621 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0ACBEE2C1606724500267621 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0ACBEE301606724500267621 /* AutoDropboxUploader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoDropboxUploader-Info.plist"; sourceTree = "<group>"; };
+		0ACBEE301606724500267621 /* SuperDuperFastTableView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SuperDuperFastTableView-Info.plist"; sourceTree = "<group>"; };
 		0ACBEE321606724500267621 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0ACBEE341606724500267621 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0ACBEE361606724500267621 /* AutoDropboxUploader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AutoDropboxUploader-Prefix.pch"; sourceTree = "<group>"; };
+		0ACBEE361606724500267621 /* SuperDuperFastTableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SuperDuperFastTableView-Prefix.pch"; sourceTree = "<group>"; };
 		0ACBEE371606724500267621 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0ACBEE381606724500267621 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0ACBEE3A1606724500267621 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -156,7 +156,7 @@
 		0ACBEE251606724500267621 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0ACBEE241606724500267621 /* AutoDropboxUploader.app */,
+				0ACBEE241606724500267621 /* SuperDuperFastTableView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -195,10 +195,10 @@
 		0ACBEE2F1606724500267621 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0ACBEE301606724500267621 /* AutoDropboxUploader-Info.plist */,
+				0ACBEE301606724500267621 /* SuperDuperFastTableView-Info.plist */,
 				0ACBEE311606724500267621 /* InfoPlist.strings */,
 				0ACBEE341606724500267621 /* main.m */,
-				0ACBEE361606724500267621 /* AutoDropboxUploader-Prefix.pch */,
+				0ACBEE361606724500267621 /* SuperDuperFastTableView-Prefix.pch */,
 				0ACBEE3A1606724500267621 /* Default.png */,
 				0ACBEE3C1606724500267621 /* Default@2x.png */,
 				0ACBEE3E1606724500267621 /* Default-568h@2x.png */,
@@ -268,9 +268,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0ACBEE231606724500267621 /* AutoDropboxUploader */ = {
+		0ACBEE231606724500267621 /* SuperDuperFastTableView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0ACBEE481606724500267621 /* Build configuration list for PBXNativeTarget "AutoDropboxUploader" */;
+			buildConfigurationList = 0ACBEE481606724500267621 /* Build configuration list for PBXNativeTarget "SuperDuperFastTableView" */;
 			buildPhases = (
 				0ACBEE201606724500267621 /* Sources */,
 				0ACBEE211606724500267621 /* Frameworks */,
@@ -281,9 +281,9 @@
 			dependencies = (
 				0AF26F571606D6290064B673 /* PBXTargetDependency */,
 			);
-			name = AutoDropboxUploader;
+			name = SuperDuperFastTableView;
 			productName = AutoDropboxUploader;
-			productReference = 0ACBEE241606724500267621 /* AutoDropboxUploader.app */;
+			productReference = 0ACBEE241606724500267621 /* SuperDuperFastTableView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -295,7 +295,7 @@
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Kevin Gibbon";
 			};
-			buildConfigurationList = 0ACBEE1E1606724500267621 /* Build configuration list for PBXProject "AutoDropboxUploader" */;
+			buildConfigurationList = 0ACBEE1E1606724500267621 /* Build configuration list for PBXProject "SuperDuperFastTableView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -313,7 +313,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				0ACBEE231606724500267621 /* AutoDropboxUploader */,
+				0ACBEE231606724500267621 /* SuperDuperFastTableView */,
 			);
 		};
 /* End PBXProject section */
@@ -463,17 +463,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AutoDropboxUploader/AutoDropboxUploader-Prefix.pch";
+				GCC_PREFIX_HEADER = "AutoDropboxUploader/SuperDuperFastTableView-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(OBJROOT)/UninstalledProducts/include",
 					"$(TARGET_BUILD_DIR)/usr/local/lib/include",
 				);
-				INFOPLIST_FILE = "AutoDropboxUploader/AutoDropboxUploader-Info.plist";
+				INFOPLIST_FILE = "AutoDropboxUploader/SuperDuperFastTableView-Info.plist";
 				OTHER_LDFLAGS = (
 					"-force_load",
 					"${BUILT_PRODUCTS_DIR}/libSDWebImageARC.a",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SuperDuperFastTableView;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -482,17 +482,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AutoDropboxUploader/AutoDropboxUploader-Prefix.pch";
+				GCC_PREFIX_HEADER = "AutoDropboxUploader/SuperDuperFastTableView-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(OBJROOT)/UninstalledProducts/include",
 					"$(TARGET_BUILD_DIR)/usr/local/lib/include",
 				);
-				INFOPLIST_FILE = "AutoDropboxUploader/AutoDropboxUploader-Info.plist";
+				INFOPLIST_FILE = "AutoDropboxUploader/SuperDuperFastTableView-Info.plist";
 				OTHER_LDFLAGS = (
 					"-force_load",
 					"${BUILT_PRODUCTS_DIR}/libSDWebImageARC.a",
 				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SuperDuperFastTableView;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -500,7 +500,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0ACBEE1E1606724500267621 /* Build configuration list for PBXProject "AutoDropboxUploader" */ = {
+		0ACBEE1E1606724500267621 /* Build configuration list for PBXProject "SuperDuperFastTableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0ACBEE461606724500267621 /* Debug */,
@@ -509,7 +509,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0ACBEE481606724500267621 /* Build configuration list for PBXNativeTarget "AutoDropboxUploader" */ = {
+		0ACBEE481606724500267621 /* Build configuration list for PBXNativeTarget "SuperDuperFastTableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0ACBEE491606724500267621 /* Debug */,

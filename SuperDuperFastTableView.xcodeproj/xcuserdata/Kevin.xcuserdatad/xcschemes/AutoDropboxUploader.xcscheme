@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0ACBEE231606724500267621"
                BuildableName = "AutoDropboxUploader.app"
-               BlueprintName = "AutoDropboxUploader"
-               ReferencedContainer = "container:AutoDropboxUploader.xcodeproj">
+               BlueprintName = "SuperDuperFastTableView"
+               ReferencedContainer = "container:SuperDuperFastTableView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0ACBEE231606724500267621"
             BuildableName = "AutoDropboxUploader.app"
-            BlueprintName = "AutoDropboxUploader"
-            ReferencedContainer = "container:AutoDropboxUploader.xcodeproj">
+            BlueprintName = "SuperDuperFastTableView"
+            ReferencedContainer = "container:SuperDuperFastTableView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -53,8 +53,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0ACBEE231606724500267621"
             BuildableName = "AutoDropboxUploader.app"
-            BlueprintName = "AutoDropboxUploader"
-            ReferencedContainer = "container:AutoDropboxUploader.xcodeproj">
+            BlueprintName = "SuperDuperFastTableView"
+            ReferencedContainer = "container:SuperDuperFastTableView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -71,8 +71,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0ACBEE231606724500267621"
             BuildableName = "AutoDropboxUploader.app"
-            BlueprintName = "AutoDropboxUploader"
-            ReferencedContainer = "container:AutoDropboxUploader.xcodeproj">
+            BlueprintName = "SuperDuperFastTableView"
+            ReferencedContainer = "container:SuperDuperFastTableView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

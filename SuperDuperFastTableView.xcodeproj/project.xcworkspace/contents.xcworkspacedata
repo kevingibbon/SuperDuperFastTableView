@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:AutoDropboxUploader.xcodeproj">
+      location = "self:SuperDuperFastTableView.xcodeproj">
    </FileRef>
 </Workspace>
