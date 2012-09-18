@@ -39,9 +39,13 @@
                         NSDictionary *imageDict = nextObject;
                         long height = [((NSNumber*)[imageDict objectForKey:@"height"]) longValue];
                         long width = [((NSNumber*)[imageDict objectForKey:@"width"]) longValue];
-                        if ((largeSize == -1) || ((height * width) > largeSize))
+//                        if ((largeSize == -1) || ((height * width) > largeSize))
+//                        {
+//                            largeSize = height * width;
+//                            largeImageUrl = [imageDict objectForKey:@"source"];
+//                        }
+                        if (width < 500 && width > 400)
                         {
-                            largeSize = height * width;
                             largeImageUrl = [imageDict objectForKey:@"source"];
                         }
                         if ((smallSize == -1) || ((height * width) < smallSize))
@@ -58,7 +62,7 @@
                 else if ([oembedDict objectForKey:@"standard_resolution"])
                 {
                     SinglyImage *singlyImage = [[SinglyImage alloc] init];
-                    [singlyImage setLargeImageUrl:[NSURL URLWithString:[[oembedDict objectForKey:@"standard_resolution"] objectForKey:@"url"]]];
+                    [singlyImage setLargeImageUrl:[NSURL URLWithString:[[oembedDict objectForKey:@"low_resolution"] objectForKey:@"url"]]];
                     [singlyImage setSmallImageUrl:[NSURL URLWithString:[[oembedDict objectForKey:@"thumbnail"] objectForKey:@"url"]]];
                     [singlyImages addObject:singlyImage];
                 }
@@ -67,10 +71,10 @@
                     NSArray *mediaDict = [[[dataDict objectForKey:@"data"] objectForKey:@"entities"]objectForKey:@"media"];
                     NSDictionary *dict = [[mediaDict objectEnumerator] nextObject];
                     NSString *imageUrl = [dict objectForKey:@"media_url"];
-                    //large or thumb
+                    //large or thumb or small
                     
                     SinglyImage *singlyImage = [[SinglyImage alloc] init];
-                    [singlyImage setLargeImageUrl:[NSURL URLWithString:[NSString stringWithFormat:@"%@:large", imageUrl]]];
+                    [singlyImage setLargeImageUrl:[NSURL URLWithString:[NSString stringWithFormat:@"%@:small", imageUrl]]];
                     [singlyImage setSmallImageUrl:[NSURL URLWithString:[NSString stringWithFormat:@"%@:thumb", imageUrl]]];
                     [singlyImages addObject:singlyImage];
                 }
