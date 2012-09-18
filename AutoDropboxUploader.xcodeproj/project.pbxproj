@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A7992901607EC8C0005DD14 /* SinglyImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A79928F1607EC8C0005DD14 /* SinglyImage.m */; };
 		0ACBEE291606724500267621 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACBEE281606724500267621 /* UIKit.framework */; };
 		0ACBEE2B1606724500267621 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACBEE2A1606724500267621 /* Foundation.framework */; };
 		0ACBEE2D1606724500267621 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACBEE2C1606724500267621 /* CoreGraphics.framework */; };
@@ -18,9 +19,59 @@
 		0ACBEE3F1606724500267621 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ACBEE3E1606724500267621 /* Default-568h@2x.png */; };
 		0ACBEE421606724500267621 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ACBEE401606724500267621 /* MainStoryboard.storyboard */; };
 		0ACBEE451606724500267621 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACBEE441606724500267621 /* ViewController.m */; };
+		0AF26F20160677FE0064B673 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF26F0E160677FE0064B673 /* NSData+Base64.m */; };
+		0AF26F21160677FE0064B673 /* NSDate+RFC1123.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF26F10160677FE0064B673 /* NSDate+RFC1123.m */; };
+		0AF26F22160677FE0064B673 /* NSDictionary+RequestEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF26F12160677FE0064B673 /* NSDictionary+RequestEncoding.m */; };
+		0AF26F23160677FE0064B673 /* NSString+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF26F14160677FE0064B673 /* NSString+MKNetworkKitAdditions.m */; };
+		0AF26F24160677FE0064B673 /* UIAlertView+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF26F16160677FE0064B673 /* UIAlertView+MKNetworkKitAdditions.m */; };
+		0AF26F25160677FE0064B673 /* MKNetworkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF26F18160677FE0064B673 /* MKNetworkEngine.m */; };
+		0AF26F26160677FE0064B673 /* MKNetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF26F1B160677FE0064B673 /* MKNetworkOperation.m */; };
+		0AF26F27160677FE0064B673 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF26F1E160677FE0064B673 /* Reachability.m */; };
+		0AF26F2A160678610064B673 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF26F29160678610064B673 /* CFNetwork.framework */; };
+		0AF26F2C160678700064B673 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF26F2B160678700064B673 /* SystemConfiguration.framework */; };
+		0AF26F2E1606787A0064B673 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF26F2D1606787A0064B673 /* Security.framework */; };
+		0AF26F3F1606895F0064B673 /* SinglyEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF26F3E1606895F0064B673 /* SinglyEngine.m */; };
+		0AF26F42160694D30064B673 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF26F41160694D30064B673 /* CustomCell.m */; };
+		0AF26F591606D69C0064B673 /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AF26F581606D69C0064B673 /* loading.png */; };
+		0AF26F5C1606D78C0064B673 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF26F5B1606D78C0064B673 /* ImageIO.framework */; };
+		0AF26F5D1606D99E0064B673 /* libSDWebImageARC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF26F531606D5B50064B673 /* libSDWebImageARC.a */; };
+		0AF26F5F1606D9B20064B673 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF26F5E1606D9B20064B673 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0AF26F501606D5B50064B673 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AF26F471606D5B40064B673 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 53922D6F148C55820056699D;
+			remoteInfo = SDWebImage;
+		};
+		0AF26F521606D5B50064B673 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AF26F471606D5B40064B673 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 53761325155AD0D5005750A4;
+			remoteInfo = "SDWebImage ARC";
+		};
+		0AF26F541606D5B50064B673 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AF26F471606D5B40064B673 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 531041E0157EAFA400BBABC3;
+			remoteInfo = "SDWebImage ARC+MKAnnotation";
+		};
+		0AF26F561606D6290064B673 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AF26F471606D5B40064B673 /* SDWebImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 53761307155AD0D5005750A4;
+			remoteInfo = "SDWebImage ARC";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		0A79928E1607EC8C0005DD14 /* SinglyImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinglyImage.h; sourceTree = "<group>"; };
+		0A79928F1607EC8C0005DD14 /* SinglyImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinglyImage.m; sourceTree = "<group>"; };
 		0ACBEE241606724500267621 /* AutoDropboxUploader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoDropboxUploader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ACBEE281606724500267621 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0ACBEE2A1606724500267621 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +88,34 @@
 		0ACBEE411606724500267621 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		0ACBEE431606724500267621 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0ACBEE441606724500267621 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0AF26F0D160677FE0064B673 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		0AF26F0E160677FE0064B673 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		0AF26F0F160677FE0064B673 /* NSDate+RFC1123.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+RFC1123.h"; sourceTree = "<group>"; };
+		0AF26F10160677FE0064B673 /* NSDate+RFC1123.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+RFC1123.m"; sourceTree = "<group>"; };
+		0AF26F11160677FE0064B673 /* NSDictionary+RequestEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+RequestEncoding.h"; sourceTree = "<group>"; };
+		0AF26F12160677FE0064B673 /* NSDictionary+RequestEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+RequestEncoding.m"; sourceTree = "<group>"; };
+		0AF26F13160677FE0064B673 /* NSString+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
+		0AF26F14160677FE0064B673 /* NSString+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
+		0AF26F15160677FE0064B673 /* UIAlertView+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
+		0AF26F16160677FE0064B673 /* UIAlertView+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
+		0AF26F17160677FE0064B673 /* MKNetworkEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNetworkEngine.h; sourceTree = "<group>"; };
+		0AF26F18160677FE0064B673 /* MKNetworkEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKNetworkEngine.m; sourceTree = "<group>"; };
+		0AF26F19160677FE0064B673 /* MKNetworkKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNetworkKit.h; sourceTree = "<group>"; };
+		0AF26F1A160677FE0064B673 /* MKNetworkOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNetworkOperation.h; sourceTree = "<group>"; };
+		0AF26F1B160677FE0064B673 /* MKNetworkOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKNetworkOperation.m; sourceTree = "<group>"; };
+		0AF26F1D160677FE0064B673 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		0AF26F1E160677FE0064B673 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		0AF26F29160678610064B673 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0AF26F2B160678700064B673 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0AF26F2D1606787A0064B673 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0AF26F3D1606895F0064B673 /* SinglyEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinglyEngine.h; sourceTree = "<group>"; };
+		0AF26F3E1606895F0064B673 /* SinglyEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinglyEngine.m; sourceTree = "<group>"; };
+		0AF26F40160694D20064B673 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		0AF26F41160694D30064B673 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		0AF26F471606D5B40064B673 /* SDWebImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDWebImage.xcodeproj; path = ../SDWebImage/SDWebImage.xcodeproj; sourceTree = "<group>"; };
+		0AF26F581606D69C0064B673 /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading.png; sourceTree = "<group>"; };
+		0AF26F5B1606D78C0064B673 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		0AF26F5E1606D9B20064B673 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +123,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AF26F5F1606D9B20064B673 /* MapKit.framework in Frameworks */,
+				0AF26F5D1606D99E0064B673 /* libSDWebImageARC.a in Frameworks */,
+				0AF26F5C1606D78C0064B673 /* ImageIO.framework in Frameworks */,
+				0AF26F2E1606787A0064B673 /* Security.framework in Frameworks */,
+				0AF26F2C160678700064B673 /* SystemConfiguration.framework in Frameworks */,
+				0AF26F2A160678610064B673 /* CFNetwork.framework in Frameworks */,
 				0ACBEE291606724500267621 /* UIKit.framework in Frameworks */,
 				0ACBEE2B1606724500267621 /* Foundation.framework in Frameworks */,
 				0ACBEE2D1606724500267621 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +141,12 @@
 		0ACBEE191606724500267621 = {
 			isa = PBXGroup;
 			children = (
+				0AF26F5E1606D9B20064B673 /* MapKit.framework */,
+				0AF26F5B1606D78C0064B673 /* ImageIO.framework */,
+				0AF26F471606D5B40064B673 /* SDWebImage.xcodeproj */,
+				0AF26F2D1606787A0064B673 /* Security.framework */,
+				0AF26F2B160678700064B673 /* SystemConfiguration.framework */,
+				0AF26F29160678610064B673 /* CFNetwork.framework */,
 				0ACBEE2E1606724500267621 /* AutoDropboxUploader */,
 				0ACBEE271606724500267621 /* Frameworks */,
 				0ACBEE251606724500267621 /* Products */,
@@ -73,6 +164,7 @@
 		0ACBEE271606724500267621 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0AF26F28160678070064B673 /* Vendor */,
 				0ACBEE281606724500267621 /* UIKit.framework */,
 				0ACBEE2A1606724500267621 /* Foundation.framework */,
 				0ACBEE2C1606724500267621 /* CoreGraphics.framework */,
@@ -83,11 +175,18 @@
 		0ACBEE2E1606724500267621 /* AutoDropboxUploader */ = {
 			isa = PBXGroup;
 			children = (
+				0AF26F581606D69C0064B673 /* loading.png */,
 				0ACBEE371606724500267621 /* AppDelegate.h */,
 				0ACBEE381606724500267621 /* AppDelegate.m */,
 				0ACBEE401606724500267621 /* MainStoryboard.storyboard */,
 				0ACBEE431606724500267621 /* ViewController.h */,
 				0ACBEE441606724500267621 /* ViewController.m */,
+				0AF26F40160694D20064B673 /* CustomCell.h */,
+				0AF26F41160694D30064B673 /* CustomCell.m */,
+				0AF26F3D1606895F0064B673 /* SinglyEngine.h */,
+				0AF26F3E1606895F0064B673 /* SinglyEngine.m */,
+				0A79928E1607EC8C0005DD14 /* SinglyImage.h */,
+				0A79928F1607EC8C0005DD14 /* SinglyImage.m */,
 				0ACBEE2F1606724500267621 /* Supporting Files */,
 			);
 			path = AutoDropboxUploader;
@@ -107,6 +206,65 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0AF26F09160677FE0064B673 /* MKNetworkKit */ = {
+			isa = PBXGroup;
+			children = (
+				0AF26F0A160677FE0064B673 /* Categories */,
+				0AF26F17160677FE0064B673 /* MKNetworkEngine.h */,
+				0AF26F18160677FE0064B673 /* MKNetworkEngine.m */,
+				0AF26F19160677FE0064B673 /* MKNetworkKit.h */,
+				0AF26F1A160677FE0064B673 /* MKNetworkOperation.h */,
+				0AF26F1B160677FE0064B673 /* MKNetworkOperation.m */,
+				0AF26F1C160677FE0064B673 /* Reachability */,
+			);
+			name = MKNetworkKit;
+			path = MKNetworkKit/MKNetworkKit;
+			sourceTree = "<group>";
+		};
+		0AF26F0A160677FE0064B673 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				0AF26F0D160677FE0064B673 /* NSData+Base64.h */,
+				0AF26F0E160677FE0064B673 /* NSData+Base64.m */,
+				0AF26F0F160677FE0064B673 /* NSDate+RFC1123.h */,
+				0AF26F10160677FE0064B673 /* NSDate+RFC1123.m */,
+				0AF26F11160677FE0064B673 /* NSDictionary+RequestEncoding.h */,
+				0AF26F12160677FE0064B673 /* NSDictionary+RequestEncoding.m */,
+				0AF26F13160677FE0064B673 /* NSString+MKNetworkKitAdditions.h */,
+				0AF26F14160677FE0064B673 /* NSString+MKNetworkKitAdditions.m */,
+				0AF26F15160677FE0064B673 /* UIAlertView+MKNetworkKitAdditions.h */,
+				0AF26F16160677FE0064B673 /* UIAlertView+MKNetworkKitAdditions.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		0AF26F1C160677FE0064B673 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				0AF26F1D160677FE0064B673 /* Reachability.h */,
+				0AF26F1E160677FE0064B673 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		0AF26F28160678070064B673 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				0AF26F09160677FE0064B673 /* MKNetworkKit */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		0AF26F481606D5B40064B673 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AF26F511606D5B50064B673 /* libSDWebImage.a */,
+				0AF26F531606D5B50064B673 /* libSDWebImageARC.a */,
+				0AF26F551606D5B50064B673 /* libSDWebImageARC+MKAnnotation.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -121,6 +279,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				0AF26F571606D6290064B673 /* PBXTargetDependency */,
 			);
 			name = AutoDropboxUploader;
 			productName = AutoDropboxUploader;
@@ -146,12 +305,42 @@
 			mainGroup = 0ACBEE191606724500267621;
 			productRefGroup = 0ACBEE251606724500267621 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0AF26F481606D5B40064B673 /* Products */;
+					ProjectRef = 0AF26F471606D5B40064B673 /* SDWebImage.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				0ACBEE231606724500267621 /* AutoDropboxUploader */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		0AF26F511606D5B50064B673 /* libSDWebImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSDWebImage.a;
+			remoteRef = 0AF26F501606D5B50064B673 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0AF26F531606D5B50064B673 /* libSDWebImageARC.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSDWebImageARC.a;
+			remoteRef = 0AF26F521606D5B50064B673 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0AF26F551606D5B50064B673 /* libSDWebImageARC+MKAnnotation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libSDWebImageARC+MKAnnotation.a";
+			remoteRef = 0AF26F541606D5B50064B673 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		0ACBEE221606724500267621 /* Resources */ = {
@@ -163,6 +352,7 @@
 				0ACBEE3D1606724500267621 /* Default@2x.png in Resources */,
 				0ACBEE3F1606724500267621 /* Default-568h@2x.png in Resources */,
 				0ACBEE421606724500267621 /* MainStoryboard.storyboard in Resources */,
+				0AF26F591606D69C0064B673 /* loading.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,10 +366,29 @@
 				0ACBEE351606724500267621 /* main.m in Sources */,
 				0ACBEE391606724500267621 /* AppDelegate.m in Sources */,
 				0ACBEE451606724500267621 /* ViewController.m in Sources */,
+				0AF26F20160677FE0064B673 /* NSData+Base64.m in Sources */,
+				0AF26F21160677FE0064B673 /* NSDate+RFC1123.m in Sources */,
+				0AF26F22160677FE0064B673 /* NSDictionary+RequestEncoding.m in Sources */,
+				0AF26F23160677FE0064B673 /* NSString+MKNetworkKitAdditions.m in Sources */,
+				0AF26F24160677FE0064B673 /* UIAlertView+MKNetworkKitAdditions.m in Sources */,
+				0AF26F25160677FE0064B673 /* MKNetworkEngine.m in Sources */,
+				0AF26F26160677FE0064B673 /* MKNetworkOperation.m in Sources */,
+				0AF26F27160677FE0064B673 /* Reachability.m in Sources */,
+				0AF26F3F1606895F0064B673 /* SinglyEngine.m in Sources */,
+				0AF26F42160694D30064B673 /* CustomCell.m in Sources */,
+				0A7992901607EC8C0005DD14 /* SinglyImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AF26F571606D6290064B673 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SDWebImage ARC";
+			targetProxy = 0AF26F561606D6290064B673 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0ACBEE311606724500267621 /* InfoPlist.strings */ = {
@@ -255,7 +464,15 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AutoDropboxUploader/AutoDropboxUploader-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(OBJROOT)/UninstalledProducts/include",
+					"$(TARGET_BUILD_DIR)/usr/local/lib/include",
+				);
 				INFOPLIST_FILE = "AutoDropboxUploader/AutoDropboxUploader-Info.plist";
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"${BUILT_PRODUCTS_DIR}/libSDWebImageARC.a",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -266,7 +483,15 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AutoDropboxUploader/AutoDropboxUploader-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(OBJROOT)/UninstalledProducts/include",
+					"$(TARGET_BUILD_DIR)/usr/local/lib/include",
+				);
 				INFOPLIST_FILE = "AutoDropboxUploader/AutoDropboxUploader-Info.plist";
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"${BUILT_PRODUCTS_DIR}/libSDWebImageARC.a",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -291,6 +516,7 @@
 				0ACBEE4A1606724500267621 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

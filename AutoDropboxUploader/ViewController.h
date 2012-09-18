@@ -10,4 +10,7 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic) BOOL prefetchSmallImages;
+@property (nonatomic) BOOL prefetchLargeImage;
+
 @end

@@ -12,7 +12,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.singlyEngine = [[SinglyEngine alloc] initWithHostName:@"api.singly.com" customHeaderFields:nil];
+    self.smallImageEngine = [[MKNetworkEngine alloc] initWithHostName:nil];
+    [self.smallImageEngine useCache];
+    [self.smallImageEngine setQueuePriority:NSOperationQueuePriorityVeryHigh];
+    self.largeImageEngine = [[MKNetworkEngine alloc] initWithHostName:nil];
+    [self.largeImageEngine useCache];
     return YES;
 }
 							

@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SinglyEngine.h"
+
+#define ApplicationDelegate ((AppDelegate *)[UIApplication sharedApplication].delegate)
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) SinglyEngine *singlyEngine;
+@property (strong, nonatomic) MKNetworkEngine *smallImageEngine;
+@property (strong, nonatomic) MKNetworkEngine *largeImageEngine;
 
 @end
