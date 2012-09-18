@@ -9,7 +9,6 @@
 #import "ViewController.h"
 #import "CustomCell.h"
 #import "SinglyImage.h"
-#import <SDWebImage/UIImageView+WebCache.h>
 
 #define FACEBOOK_KEY @"SndQKvjQYlc4gsQ3J1s2ukFwYJI=dAn_RXJj0072c3a5062f9902aadec411a65b786fdaa940e5f915f3b41e8954fe0ac7281864eec492d598c334cecbc9d4b173004ac6f94537bc7b931bf88c57ab76791420616f173f2c8b990c4c239f0fc66f88bc7e216e98367e4eac9f9cd5551697889cb3f11478f1806f6e5a79b6f6574f2a88"
 #define INSTAGRAM_KEY @"vKhUIuVUPmBw5VVW4Gm9n9-Lfbc=P9m8G62Xcb4dbc938d68014bf85701b93bddcd7f3c7a9f90124f65250ad949357ae3b175c7c66ba4de91c549875868a398544d6a1407f5ffd8947803137fe556233d2ecfd6e8590170012d233c9244986936a06b28b8e43264322075c3ef9a904c11e5f9ccfaf8d9e6bde83055b11f9a36e735ab"
@@ -107,6 +106,7 @@
     return [singlyImages count];
 }
 
+#warning TODO scroll to top by pressing clock does not load large images
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
 {
     for (CustomCell *cell in [self.tableView visibleCells])

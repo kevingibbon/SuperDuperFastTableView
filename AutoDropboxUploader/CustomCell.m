@@ -7,7 +7,6 @@
 //
 
 #import "CustomCell.h"
-#import <SDWebImage/UIImageView+WebCache.h>
 
 @interface CustomCell()
 

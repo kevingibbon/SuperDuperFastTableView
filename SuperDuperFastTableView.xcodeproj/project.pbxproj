@@ -385,10 +385,7 @@
 					"$(TARGET_BUILD_DIR)/usr/local/lib/include",
 				);
 				INFOPLIST_FILE = "AutoDropboxUploader/SuperDuperFastTableView-Info.plist";
-				OTHER_LDFLAGS = (
-					"-force_load",
-					"${BUILT_PRODUCTS_DIR}/libSDWebImageARC.a",
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = SuperDuperFastTableView;
 				WRAPPER_EXTENSION = app;
 			};
@@ -404,10 +401,7 @@
 					"$(TARGET_BUILD_DIR)/usr/local/lib/include",
 				);
 				INFOPLIST_FILE = "AutoDropboxUploader/SuperDuperFastTableView-Info.plist";
-				OTHER_LDFLAGS = (
-					"-force_load",
-					"${BUILT_PRODUCTS_DIR}/libSDWebImageARC.a",
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = SuperDuperFastTableView;
 				WRAPPER_EXTENSION = app;
 			};
