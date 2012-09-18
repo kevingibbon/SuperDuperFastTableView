@@ -34,40 +34,8 @@
 		0AF26F42160694D30064B673 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF26F41160694D30064B673 /* CustomCell.m */; };
 		0AF26F591606D69C0064B673 /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AF26F581606D69C0064B673 /* loading.png */; };
 		0AF26F5C1606D78C0064B673 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF26F5B1606D78C0064B673 /* ImageIO.framework */; };
-		0AF26F5D1606D99E0064B673 /* libSDWebImageARC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF26F531606D5B50064B673 /* libSDWebImageARC.a */; };
 		0AF26F5F1606D9B20064B673 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF26F5E1606D9B20064B673 /* MapKit.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		0AF26F501606D5B50064B673 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0AF26F471606D5B40064B673 /* SDWebImage.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 53922D6F148C55820056699D;
-			remoteInfo = SDWebImage;
-		};
-		0AF26F521606D5B50064B673 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0AF26F471606D5B40064B673 /* SDWebImage.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 53761325155AD0D5005750A4;
-			remoteInfo = "SDWebImage ARC";
-		};
-		0AF26F541606D5B50064B673 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0AF26F471606D5B40064B673 /* SDWebImage.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 531041E0157EAFA400BBABC3;
-			remoteInfo = "SDWebImage ARC+MKAnnotation";
-		};
-		0AF26F561606D6290064B673 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0AF26F471606D5B40064B673 /* SDWebImage.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 53761307155AD0D5005750A4;
-			remoteInfo = "SDWebImage ARC";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0A79928E1607EC8C0005DD14 /* SinglyImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinglyImage.h; sourceTree = "<group>"; };
@@ -112,7 +80,6 @@
 		0AF26F3E1606895F0064B673 /* SinglyEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinglyEngine.m; sourceTree = "<group>"; };
 		0AF26F40160694D20064B673 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
 		0AF26F41160694D30064B673 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
-		0AF26F471606D5B40064B673 /* SDWebImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDWebImage.xcodeproj; path = ../SDWebImage/SDWebImage.xcodeproj; sourceTree = "<group>"; };
 		0AF26F581606D69C0064B673 /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading.png; sourceTree = "<group>"; };
 		0AF26F5B1606D78C0064B673 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		0AF26F5E1606D9B20064B673 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -124,7 +91,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AF26F5F1606D9B20064B673 /* MapKit.framework in Frameworks */,
-				0AF26F5D1606D99E0064B673 /* libSDWebImageARC.a in Frameworks */,
 				0AF26F5C1606D78C0064B673 /* ImageIO.framework in Frameworks */,
 				0AF26F2E1606787A0064B673 /* Security.framework in Frameworks */,
 				0AF26F2C160678700064B673 /* SystemConfiguration.framework in Frameworks */,
@@ -143,7 +109,6 @@
 			children = (
 				0AF26F5E1606D9B20064B673 /* MapKit.framework */,
 				0AF26F5B1606D78C0064B673 /* ImageIO.framework */,
-				0AF26F471606D5B40064B673 /* SDWebImage.xcodeproj */,
 				0AF26F2D1606787A0064B673 /* Security.framework */,
 				0AF26F2B160678700064B673 /* SystemConfiguration.framework */,
 				0AF26F29160678610064B673 /* CFNetwork.framework */,
@@ -255,16 +220,6 @@
 			name = Vendor;
 			sourceTree = "<group>";
 		};
-		0AF26F481606D5B40064B673 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0AF26F511606D5B50064B673 /* libSDWebImage.a */,
-				0AF26F531606D5B50064B673 /* libSDWebImageARC.a */,
-				0AF26F551606D5B50064B673 /* libSDWebImageARC+MKAnnotation.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -279,7 +234,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				0AF26F571606D6290064B673 /* PBXTargetDependency */,
 			);
 			name = SuperDuperFastTableView;
 			productName = AutoDropboxUploader;
@@ -305,42 +259,12 @@
 			mainGroup = 0ACBEE191606724500267621;
 			productRefGroup = 0ACBEE251606724500267621 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 0AF26F481606D5B40064B673 /* Products */;
-					ProjectRef = 0AF26F471606D5B40064B673 /* SDWebImage.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				0ACBEE231606724500267621 /* SuperDuperFastTableView */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		0AF26F511606D5B50064B673 /* libSDWebImage.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libSDWebImage.a;
-			remoteRef = 0AF26F501606D5B50064B673 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0AF26F531606D5B50064B673 /* libSDWebImageARC.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libSDWebImageARC.a;
-			remoteRef = 0AF26F521606D5B50064B673 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0AF26F551606D5B50064B673 /* libSDWebImageARC+MKAnnotation.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libSDWebImageARC+MKAnnotation.a";
-			remoteRef = 0AF26F541606D5B50064B673 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		0ACBEE221606724500267621 /* Resources */ = {
@@ -381,14 +305,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		0AF26F571606D6290064B673 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "SDWebImage ARC";
-			targetProxy = 0AF26F561606D6290064B673 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0ACBEE311606724500267621 /* InfoPlist.strings */ = {
